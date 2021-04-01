@@ -1,0 +1,71 @@
+body{
+    font-family: "Poppins", "Helvetica Neue", "Calibri Light", "Roboto", sans-serif;
+    background: #F2F3F6;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+}
+.container{
+    
+    background-image: url(image/fundo_palha.png);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+}
+
+.col-md-1{
+    font-size: 45px;
+    color: #059768;
+}
+.Control-password{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.col-md-2{
+    display: flex;
+    padding: 10px;
+   
+}
+.card-login{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.forminput{
+    height: 30px;
+    width: 300px;
+    border-radius: 5px;
+    border-color: rgb(rgb(107, 103, 103));
+    border-style: solid;
+}
+    
+
+.h3{
+    font-size: 30px;
+    
+}
+
+.form{
+    font-size: 20px;
+    font-weight: bold;
+}
+.botao{
+    display: flex;
+    justify-content: center;
+}
+
+.botaoin{
+    background: #059768;
+    font-size: 25px;
+    font-weight: bold;
+    width: 300px;
+    border-radius: 5px;
+    border-style: solid;
+    border-color: rgb(rgb(107, 103, 103));
+}
