@@ -31,10 +31,10 @@ if ($sql->rowCount()>0){
                     </tr>
                     <?php foreach($lista as $usuario): ?> 
                         <tr>
-                            <td><?php echo $usuario['id']; ?></td>
-                            <td><?php echo $usuario['nome']; ?></td>
-                            <td><?php echo $usuario['cpf']; ?></td>
-                            <td><?php echo $usuario['dtnascimento']; ?></td>
+                            <td><?=$usuario['id']; ?></td>
+                            <td><?=$usuario['nome']; ?></td>
+                            <td><?=$usuario['cpf']; ?></td>
+                            <td><?=$usuario['dtnascimento']; ?></td>
                         </tr>
                     <?php endforeach; ?>
                     
