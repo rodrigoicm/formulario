@@ -22,7 +22,7 @@ if ($sql->rowCount()>0){
             <h1>Lista de Pacientes</h1>
         
     </div>
-    <table border="1" width="100%">
+    <table border="1" width="100%" cellspacing=0 cellpadding=2 bordercolor="666633">
                     <tr>
                         <th>ID</th>    
                         <th>NOME</th>
