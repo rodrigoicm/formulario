@@ -27,13 +27,14 @@ body{
 
 .col-md-2{
     display: flex;
+    flex-direction: column;
     padding: 10px;
    
 }
 .card-login{
     display: flex;
     flex-direction: column;
-    align-items: center;
+   
     
 }
 
