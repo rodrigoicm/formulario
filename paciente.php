@@ -4,8 +4,8 @@ $list = [];
 $sql = $pdo->query("select * from usuarios");
 if ($sql->rowCount()>0){
     $lista = $sql->fetchAll(PDO::FETCH_ASSOC);
-
 }
+
 ?>
 <!DOCTYPE html>
 <html lang="pt-br">
@@ -17,27 +17,35 @@ if ($sql->rowCount()>0){
     <title>Pacientes</title>
 </head>
 <body>
+
     <div class="container">
         <div class="col-md-1">
             <h1>Lista de Pacientes</h1>
-        
-    </div>
-    <table border="1" width="100%">
+        </div>
+        <div class="tabela">
+        <table border="1" width="100%" cellspacing=0 cellpadding=2 bordercolor="666633">
                     <tr>
                         <th>ID</th>    
                         <th>NOME</th>
                         <th>CPF</th>
                         <th>DT. NASCIMENTO</th>
+                        <th>AÇÕES</th>
                     </tr>
-                    <?php foreach($lista as $usuario): ?> 
+                    <?php foreach($lista as $paciente): ?> 
                         <tr>
-                            <td><?php echo $usuario['id']; ?></td>
-                            <td><?php echo $usuario['nome']; ?></td>
-                            <td><?php echo $usuario['cpf']; ?></td>
-                            <td><?php echo $usuario['dtnascimento']; ?></td>
+                            <td><?=$paciente['id']; ?></td>
+                            <td><?=$paciente['nome']; ?></td>
+                            <td><?=$paciente['cpf']; ?></td>
+                            <td><?=$paciente['dtnascimento']; ?></td>
                         </tr>
                     <?php endforeach; ?>
-                    
+        </div>
+        <div class="BUTTON_LRD">
+            <a href="inserir.php">INSERIR</a>
+        </div>
+    
+                               
+    </div>
     
 </body>
 </html>

@@ -6,6 +6,7 @@ body{
     padding: 0;
 
 }
+
 .container{
     
     background-image: url(image/fundo_palha.png);
@@ -20,53 +21,26 @@ body{
     font-size: 44px;
     color: #059768;
 }
-.Control-password{
-    padding-top: 10px;
-    padding-bottom: 10px;
-}
 
-.col-md-2{
-    display: flex;
-    flex-direction: column;
-    padding: 10px;
-   
-}
-.card-login{
-    display: flex;
-    flex-direction: column;
-   
-    
-}
 
-.forminput{
-    height: 30px;
-    width: 300px;
-    border-radius: 5px;
-    border-color: rgb(rgb(107, 103, 103));
-    border-style: solid;
+.tabela{
+   font-size: 20px;
+   width: 100vw;
+  
 }
-    
+.BUTTON_LRD{
+    border-radius: 20px;
+    color: #FFFFFF;
+    font-family: Verdana;
+    font-size: 29px;
+    font-weight: 100;
+    padding: 20px;
+    background-color: #059768;
+    box-shadow: 1px 1px 20px 0 #000000;
+    text-shadow: 1px 1px 20px #000000;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    text-align: center;
+ }
 
-.h3{
-    font-size: 30px;
-    
-}
-
-.form{
-    font-size: 20px;
-    font-weight: bold;
-}
-.botao{
-    display: flex;
-    justify-content: center;
-}
-
-.botaoin{
-    background: #059768;
-    font-size: 25px;
-    font-weight: bold;
-    width: 300px;
-    border-radius: 5px;
-    border-style: solid;
-    border-color: rgb(rgb(107, 103, 103));
-}
