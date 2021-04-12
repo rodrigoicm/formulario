@@ -29,15 +29,12 @@ body{
   
 }
 .BUTTON_LRD{
-    border-radius: 20px;
+    
     color: #FFFFFF;
     font-family: Verdana;
-    font-size: 29px;
-    font-weight: 100;
+    font-size: 20px;
     padding: 20px;
     background-color: #059768;
-    box-shadow: 1px 1px 20px 0 #000000;
-    text-shadow: 1px 1px 20px #000000;
     text-decoration: none;
     display: inline-block;
     cursor: pointer;
