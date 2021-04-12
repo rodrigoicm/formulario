@@ -16,12 +16,12 @@
         <form method="POST" action="inserir_action.php">
         <label>
                 Nome:<br/>
-                <input type="text" name="name" required oninvalid="this.setCustomValidity('Favor digite o Nome')" 
+                <input type="text" name="name" required oninvalid="this.setCustomValidity('Preencha seu Nome')" 
 onchange="try{setCustomValidity('')}catch(e){}">
             </label><br/><br/>
             <label>
                 CPF:<br/>
-                <input type="" name="cpf" required oninvalid="this.setCustomValidity('Favor digite o CPF')" 
+                <input type="" name="cpf" required oninvalid="this.setCustomValidity('Preencha seu CPF')" 
 onchange="try{setCustomValidity('')}catch(e){}">
             </label><br/><br/>
             <label>
@@ -31,6 +31,7 @@ onchange="try{setCustomValidity('')}catch(e){}">
             </label><br/><br/>
 
             <input type="submit" value="Adicionar">
+            
         </form>
             
 
