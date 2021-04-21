@@ -44,8 +44,8 @@ if ($sql->rowCount() > 0) {
                         </tr>
                     <?php endforeach; ?>
         </div>
-        <div class="BUTTON_LRD">
-            <a href="inserir.php">INSERIR</a>
+        <div>
+            <a class="BUTTON_LRD" href="inserir.php">INSERIR</a>
         </div>
     
                                
