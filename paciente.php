@@ -2,7 +2,7 @@
 require 'config.php';
 $list = [];
 $sql = $pdo->query("select * from usuarios");
-if ($sql->rowCount()>0){
+if ($sql->rowCount() > 0) {
     $lista = $sql->fetchAll(PDO::FETCH_ASSOC);
 }
 
@@ -37,6 +37,10 @@ if ($sql->rowCount()>0){
                             <td><?=$paciente['nome']; ?></td>
                             <td><?=$paciente['cpf']; ?></td>
                             <td><?=$paciente['dtnascimento']; ?></td>
+                            <td> 
+                                <a class="BUTTON_LRD" href="editar.php?id=<?=$paciente['id']; ?> ">Editar </a>
+                                <a class="BUTTON_LRD" href="excluir.php?id=<?=$paciente['id']; ?>">Excluir</a>
+                            </td>
                         </tr>
                     <?php endforeach; ?>
         </div>

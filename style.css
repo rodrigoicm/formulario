@@ -25,15 +25,16 @@ body{
 
 .tabela{
    font-size: 20px;
-   width: 100vw;
-  
+   width: 90vw;
+   
 }
 .BUTTON_LRD{
-    
+    margin-bottom: 5px;
     color: #FFFFFF;
     font-family: Verdana;
-    font-size: 20px;
-    padding: 20px;
+    font-size: 15px;
+    font-weight: 200;
+    padding: 5px;
     background-color: #059768;
     text-decoration: none;
     display: inline-block;
@@ -41,3 +42,9 @@ body{
     text-align: center;
  }
 
+ .BUTTON_LRD a{
+     text-decoration: none;
+ }
+ .BUTTON_LRD input{
+    text-decoration: none;
+}
