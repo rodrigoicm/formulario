@@ -17,28 +17,24 @@
         <label>
                 Nome:<br/>
                 <input type="text" name="name" required oninvalid="this.setCustomValidity('Preencha seu Nome')" 
-onchange="try{setCustomValidity('')}catch(e){}">
+                onchange="try{setCustomValidity('')}catch(e){}">
             </label><br/><br/>
             <label>
                 CPF:<br/>
                 <input type="" name="cpf" required oninvalid="this.setCustomValidity('Preencha seu CPF')" 
-onchange="try{setCustomValidity('')}catch(e){}">
+                onchange="try{setCustomValidity('')}catch(e){}">
             </label><br/><br/>
             <label>
                 Data Nascimento:<br/>
                 <input type="date" name="dtnascimento" required oninvalid="this.setCustomValidity('Favor digite a data e nascimento')" 
-onchange="try{setCustomValidity('')}catch(e){}">
+                onchange="try{setCustomValidity('')}catch(e){}">
             </label><br/><br/>
 
-            <input type="submit" value="Adicionar">
+            <input type="submit" value="Adicionar" class="BUTTON_LRD">
+            <a href="paciente.php" class="BUTTON_LRD">Voltar</a>
             
-        </form>
-            
-
-                
-                                   
-    </div>
-    
+        </form>                            
+    </div> 
 </body>
 </html>
 
