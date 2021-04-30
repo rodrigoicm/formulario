@@ -39,7 +39,7 @@ if ($sql->rowCount() > 0) {
                             <td><?=$paciente['dtnascimento']; ?></td>
                             <td> 
                                 <a class="BUTTON_LRD" href="editar.php?id=<?=$paciente['id']; ?> ">Editar </a>
-                                <a class="BUTTON_LRD" href="excluir.php?id=<?=$paciente['id']; ?>">Excluir</a>
+                                <a class="BUTTON_LRD" onclick="return confirm('Deseja Excluir?')" href="excluir.php?id=<?=$paciente['id']; ?>">Excluir</a>
                             </td>
                         </tr>
                     <?php endforeach; ?>
